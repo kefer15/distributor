@@ -16,5 +16,6 @@ public class Distributor {
         //System.out.println(" -- > RESTA : " + a + " + " + b + " = " + (a-b));
         System.out.println(" -- > MULTIPLICACION : " + a + " + " + b + " = " + (a*b));
         System.out.println(" -- > DIVISION : " + a + " + " + b + " = " + (a/b));
+        System.out.println(" -- > MODULO : " + a + " % " + b + " = " + (a%b));
     }
 }
