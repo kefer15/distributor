@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Distributor {
 
     public static void main(String[] args) {
-        
         Scanner scan = new Scanner(System.in);
         
         int a = scan.nextInt();
@@ -17,7 +16,6 @@ public class Distributor {
         System.out.println(" -- > MULTIPLICACION : " + a + " + " + b + " = " + (a*b));
         System.out.println(" -- > DIVISION : " + a + " + " + b + " = " + (a/b));
         System.out.println(" -- > MODULO : " + a + " % " + b + " = " + (a%b));
-        System.out.println(" -- > POTENCIA : " + a + " % " + b + " = " + Math.pow(a,b));
-        
+        System.out.println(" -- > POTENCIA : " + a + " $ " + b + " = " + Math.pow(a,b));        
     }
 }
