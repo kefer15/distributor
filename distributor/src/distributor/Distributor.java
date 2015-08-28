@@ -12,8 +12,8 @@ public class Distributor {
         int b = scan.nextInt();
         
         System.out.println("OPERACIONES");
-        System.out.println(" -- > SUMA : " + a + " + " + b + " = " + (a+b));
-        System.out.println(" -- > RESTA : " + a + " + " + b + " = " + (a-b));
+        //System.out.println(" -- > SUMA : " + a + " + " + b + " = " + (a+b));
+        //System.out.println(" -- > RESTA : " + a + " + " + b + " = " + (a-b));
         System.out.println(" -- > MULTIPLICACION : " + a + " + " + b + " = " + (a*b));
         System.out.println(" -- > DIVISION : " + a + " + " + b + " = " + (a/b));
     }
